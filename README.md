@@ -9,8 +9,7 @@ Apache axis web service SOAP and REST API using PHP documentations
 
 # Sample Codes 
 
-### get.php ####
-
+## get.php 
 
 <?php
 //--- Set the parameters --------------//
@@ -28,7 +27,7 @@ exit(0);
 ?>
 
 
-### post.php ####
+## post.php 
 <?php
 //--- Set the parameters --------------//
 $url    = "http://www.google.nl/";
@@ -54,7 +53,7 @@ exit(0);
 ?>
 
 
-#### WSDL ####
+## WSDL 
 <?php
 $client = new SoapClient('https://api.thumbnail.ws/soap?wsdl');
 try {
